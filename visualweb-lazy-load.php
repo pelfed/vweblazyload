@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Visualweb Lazy Load
- * Plugin URI:        https://visualweb.co.uk/lazyload
+ * Plugin URI:        https://github.com/pelfed/vweblazyload
  * Description:       LazyLoad images by entering your own JQuery selector, or use the default class of 'vweblazyload'.
  * Version:           1.0.0
  * Author:            VisualWeb
