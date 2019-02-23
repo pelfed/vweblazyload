@@ -4,7 +4,7 @@ Donate link: https://visualweb.co.uk/lazyload
 Tags: lazy load, image lazyload, image load, selective lazy load
 Requires at least: 3.3
 Tested up to: 5.1.0
-Stable tag: 1.0.0
+Stable tag: trunk
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -32,7 +32,6 @@ Wish to reduce page loading time significantly and selectively? Then choose it.
 <li>Able to choose which image elements are lazy loaded</li>
 </ul>
 
-
 == Installation ==
 
 1. Upload folder 'visualweb-lazy-load' to the '/wp-content/plugins/' directory
@@ -46,6 +45,10 @@ A: Still in your website, they will load on demand.
 
 Q: What should I do after activation.<br />
 A: Take a look in the setting menu.
+
+== Screenshots ==
+
+1. Admin Section
 
 == Changelog ==
 
