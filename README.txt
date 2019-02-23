@@ -54,3 +54,5 @@ A: Take a look in the setting menu.
 
 = 1.0.0 =
 * Initial release.
+
+== Upgrade Notice ==
