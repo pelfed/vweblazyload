@@ -1,12 +1,13 @@
 === VisualWeb lazy load ===
-Contributors: fiverpelfed
+Contributors: fiverrpelfed
 Donate link: https://visualweb.co.uk/lazyload 
-Tags: lazy load, image lazyload, image load
+Tags: lazy load, image lazyload, image load, selective lazy load
 Requires at least: 3.3
 Tested up to: 5.1.0
 Stable tag: 1.0.0
+Requires PHP: 5.2.4
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Reduce the loading time while opening your wordpress website, accelerate opening time. Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them..
 
