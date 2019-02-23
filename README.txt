@@ -9,17 +9,19 @@ Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Reduce the loading time while opening your wordpress website, accelerate opening time. Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them..
+Reduce the loading time while opening your wordpress website, accelerate opening time. Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them.
 
 == Description ==
 
-VisualWeb lazy load aim is to speed up your website powered by WordPress. 
-It delays loading of images in (long) web pages. 
+VisualWeb lazy load plugin's aim is to speed up your website powered by WordPress.
+This will prove helpful for getting a good score on GTmetrix, YSlow and Pingdom.
+It delays loading of selected images in (long) web pages. 
 Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them.
-Unlike other plugins of similar type, this plugin allows you to choose the css selector(s) you want it applied to.
+Unlike other plugins of similar type, this plugin allows you to choose which images are applied to it via the css selector(s).
 
-After activating the plugin, when the website is viewed,
-the text will be loaded first and then the images. This will help reduce the loading time, the images will load later based on user screen scrolling by jQuery script. Scrolling down, more image will be loaded, no need to call an external server.
+After activating the plugin, when the website is viewed, the text will be loaded first and then the images. 
+This will help reduce the loading time, the images will load later based on user screen scrolling by jQuery script. 
+Scrolling down, more image will be loaded, no need to call an external server.
 
 Wish to reduce page loading time significantly and selectively? Then choose it.
 
