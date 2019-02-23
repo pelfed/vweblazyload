@@ -76,7 +76,7 @@ class Visualweb_Lazy_Load_Public {
 
 	}
 	public function buffer_start_vwebll() { 
-		function vweblazyloadImages($wphtml) {
+		function visualweb_lazy_load_img_func6471($wphtml) {
 			$options = get_option('visualweb-lazy-load');
 			$lazy_jq_selector = $options['lazy_jq_selector'];   
 			
@@ -100,7 +100,7 @@ class Visualweb_Lazy_Load_Public {
 		    return $pq->html();
 		    //return $wphtml;
 		}
-		ob_start("vweblazyloadImages"); 
+		ob_start("visualweb_lazy_load_img_func6471"); 
 	}
 
 	public function buffer_end_vwebll() { ob_end_flush(); }
