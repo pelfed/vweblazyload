@@ -67,8 +67,8 @@ class Visualweb_Lazy_Load {
 	 * @since    1.0.0
 	 */
 	public function __construct() {
-		if ( defined( 'PLUGIN_NAME_VERSION' ) ) {
-			$this->version = PLUGIN_NAME_VERSION;
+		if ( defined( 'VISUALWEB_LAZY_LOAD_VERSION' ) ) {
+			$this->version = VISUALWEB_LAZY_LOAD_VERSION;
 		} else {
 			$this->version = '1.0.0';
 		}
@@ -120,7 +120,9 @@ class Visualweb_Lazy_Load {
 		 * The class responsible for defining all actions that occur in the public-facing
 		 * side of the site.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/phpQuery-onefile.php';
+		if (!class_exists('phpQuery')) {
+		    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/phpQuery-onefile.php';
+		}
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-visualweb-lazy-load-public.php';
 
 		$this->loader = new Visualweb_Lazy_Load_Loader();
